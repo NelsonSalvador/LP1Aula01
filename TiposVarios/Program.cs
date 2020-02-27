@@ -11,9 +11,11 @@ namespace TiposVarios
             int p = 3;
             float a = 4.56f;
             double r = 5.67;
+            bool q = true;
+            bool w = false;
 
             char smile = '\u2661';
-            
+
             Console.WriteLine(p);
             Console.WriteLine(a);
             Console.WriteLine(r);
@@ -21,7 +23,10 @@ namespace TiposVarios
             Console.Write(smile);
             Console.Write(smile);
             Console.Write(smile);
-            Console.Write(smile);
+            Console.WriteLine(smile);
+
+            Console.WriteLine(q);
+            Console.WriteLine(w);
 
         }
     }
